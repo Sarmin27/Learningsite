@@ -8,7 +8,11 @@
     <!---------------------------use Internal CSS------------->
     <style>
         body {
-            background-color: bisque;
+
+            background-image: url('cover.jpg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
         }
 
         h1 {
@@ -75,7 +79,7 @@
     </p><br><br>
     <!-----------------------------Text formatting--------------------->
     <h1>Text formatting</h1>
-    <pre style="font-size: 100%;">
+    <pre style="background-image:url(pre.jpg);">
     <b>This text is bold text</b>
     <strong>This text is strong text</strong>
     <i>This text is italic text</i>
@@ -89,7 +93,7 @@
     H<sub>2</sub>O
     WWW<sup>[1]</sup>
 </pre>
-<h2 id="c4">Relative </h2>
+    <h2 id="c4">Relative </h2>
     <!----------------------------HTML Quotation and Citation Elements------------------------->
     <p>The HTML <b>blockquote</b> element defines a section that is quoted from another source.</p>
     <p>Here is a quote from WWF's website:</p>
@@ -137,7 +141,7 @@
     <!------------------------The Target Attribute ---------------->
     <h2>Absolute URL</h2>
     <a style="color:black;" href="https://www.w3schools.com/" target="_self">Visit W3Schools!</a> <br>
-    <a style="color:blue;" href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a><br> 
+    <a style="color:blue;" href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a><br>
     <a style="color:red;" href="https://www.w3schools.com/" target="_parent">Visit W3Schools!</a> <br>
     <a style="color:rgb(255, 0, 149);" href="https://www.w3schools.com/" target="_top">Visit W3Schools!</a> <br>
     <h2>Relative URL</h2>
@@ -147,8 +151,28 @@
     <h2>Use an Email as a link</h2>
     <a href="mailto:sarminsultanamaya@gmail.com">Mail</a><br>
     <h2>Link Titles</h2>
-    <a href="#c4"title="go to same page" >Relative</a>
-    
+    <a href="#c4" title="go to same page">Relative</a><br>
+    <img src="img_girl.jpg" alt="Girl in a jacket" width="500" height="600">
+<!-----------------------------HTML Table--------------------->
+<h1>A basic HTML table</h1>
+<table  border="1px solid back">
+    <tr>
+        <th>Company</th>
+        <th>Contact</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Alfred</td>
+        <td>Maria</td>
+        <td>Germany</td>
+    </tr>
+     <tr>
+        <td>Centro </td>
+        <td>Francisco</td>
+        <td>Mexico</td>
+    </tr>
+</table>
+
 
 
 </body>
